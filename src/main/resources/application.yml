@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    name: cj
+    host: www.servicejava.com
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://www.servicejava.com:3306/cj
+    username: root
+    password: root
+  management.security.enabled: false
